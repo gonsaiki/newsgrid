@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>NewsGrid | Latest News</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav id="main-nav">
+      <div class="container">
+        <img src="img/logo.png" alt="NewsGrid" class="logo" />
+        <div class="social">
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="fab fa-youtube fa-2x"></i
+          ></a>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="current" href="about.html">About</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars fa-2x"></i>
+        </a>
+      </div>
+    </nav>
+
+    <section id="mobile">
+      <div id="mobile-nav">
+        <a class="current" href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="article">
+      <div class="container">
+        <div class="page-container">
+          <article class="card">
+            <img src="img/articles/ent1.jpg" alt="" />
+            <h1 class="l-heading">Lorem ipsum dolor sit amet.</h1>
+            <div class="meta">
+              <small>
+                <i class="fas fa-user"></i> Written By John Doe January 12, 2019
+              </small>
+              <div class="category category-ent">Entertaiment</div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              facilis quas blanditiis voluptatem, doloribus, eveniet dignissimos
+              ratione a harum sit aperiam corporis voluptate magni hic obcaecati
+              aspernatur debitis impedit unde expedita fuga nesciunt temporibus
+              quia amet alias? Fugit, ipsam, amet doloribus ipsa beatae nam fuga
+              hic ratione maiores perspiciatis dignissimos.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
+              quas placeat vitae reprehenderit totam vero, rem ipsa assumenda
+              magni consequuntur, ea aut in perspiciatis veniam cupiditate
+              possimus eveniet maxime beatae similique! Molestias quae in
+              perferendis excepturi dignissimos aperiam adipisci numquam
+              quibusdam iusto accusamus eligendi, voluptatum distinctio natus
+              earum aliquam dolor libero beatae corporis? Architecto saepe non
+              aut minus, sapiente nesciunt cum dolore sed iusto laborum adipisci
+              quis excepturi cupiditate beatae incidunt quidem numquam quo
+              quaerat quam necessitatibus hic tempora impedit inventore. Aliquid
+              alias consequuntur vel, aliquam iusto assumenda obcaecati magni
+              repellat quis quos omnis saepe totam necessitatibus quasi ratione,
+              distinctio quidem atque delectus accusantium aut! Dolor nisi
+              numquam laudantium alias sunt incidunt adipisci recusandae libero
+              illum eligendi neque maxime, nam molestiae repellendus aspernatur
+              ex, deserunt cumque natus odit hic culpa quisquam provident?
+              Praesentium recusandae inventore quaerat porro, esse temporibus!
+              Ipsa numquam beatae voluptatibus esse perspiciatis nemo provident,
+              commodi distinctio suscipit?
+            </p>
+          </article>
+          <aside id="category" class="card">
+            <h2>Categories</h2>
+            <ul class="list">
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Sports</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-chevron-right"></i> Entertaiment</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Technology</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Fashion</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right"></i> Shopping</a>
+              </li>
+            </ul>
+          </aside>
+          <aside class="card bg-secondary">
+            <h2>Join Our Club</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur,
+              dolor.
+            </p>
+            <a href="#" class="btn btn-dark btn-block">Join Now</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="py-1">
+      <div class="container footer-container">
+        <div>
+          <img src="img/logo_light.png" alt="Whatever" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+            deserunt nesciunt placeat. Eius, ut? Quibusdam necessitatibus esse
+            accusantium ea magni.
+          </p>
+        </div>
+        <div>
+          <h3>Email Newsletter</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <form>
+            <input type="email" placeholder="Enter Email" />
+            <input type="submit" value="Subscribe" class="btn btn-primary" />
+          </form>
+        </div>
+        <div>
+          <h3>Site Links</h3>
+          <ul class="list">
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Join Our Club</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+            saepe.
+          </p>
+          <a href="#" class="btn btn-secondary">Join Now</a>
+        </div>
+        <div>
+          <p>
+            Copyright &copy; 2020, All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mobile-nav");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
