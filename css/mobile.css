@@ -80,3 +80,13 @@
     font-size: 2rem;
   }
 }
+
+@media (max-height: 568px) {
+  p {
+    font-size: 0.8rem;
+  }
+
+  .showcase-content {
+    font-size: 0.7rem;
+  }
+}
